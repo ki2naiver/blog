@@ -61,6 +61,8 @@ nav:
     url: "/tags"
   - name: "Github"
     url: "https://github.com/ki2naiver/blog"
+  - name: "Mainpage"
+    url: "http://ki2naiver.id"
 
 # Sass
 sass:
