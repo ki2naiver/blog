@@ -35,10 +35,10 @@ permalink: /tags/
   <div class="tag-title" id="{{ this_tag }}">
     {{ this_tag }}
   </div>
-    <ul>
+    <!-- <ul> -->
     {% for post in site.tags[this_tag] %}
     {% if post.title != null %}
-      <li class="tag-post">
+      <div class="tag-post">
         {% if post.link %}
         <a href="{{ post.link }}">
         {% else %}
@@ -46,10 +46,10 @@ permalink: /tags/
         {% endif %}  
           <span class="tag-post-title">{{ post.title }}</span>
         </a>
-      </li>
+      </div>
     {% endif %}
     {% endfor %}
-    </ul>
+    <!-- </ul> -->
   </article>
 {% endunless %}
 {% endfor %}
