@@ -14,7 +14,7 @@ layout: default
         </center>
     </a>
   </div>
-  <nav class="header-nav">
+  <nav class="header-nav" style="text-align:center;">
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
     <a href="{{ nav.url }}">{{ nav.name }}</a>
@@ -25,7 +25,7 @@ layout: default
   </nav>
 </header>
 
-<div class="list">
+<div class="list" style="text-align:center;">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
