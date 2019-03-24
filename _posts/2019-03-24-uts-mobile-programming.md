@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-### Deskripsi
+### 1. Deskripsi
 
 Aplikasi To-Do List / Perencanaan Kegiatan
 
@@ -18,7 +18,7 @@ List kegiatan dapat ditandai berdasarkan prioritas:
 - 2 (Sedang) = Orange
 - 3 (Biasa) = Kuning
 
-### XML Text
+### 2. XML Text
 
 ##### activity_main.xml
 Tampilan utama saat aplikasi dijalankan sekaligus menampilkan list kegiatan yang sudah ditambahkan.
@@ -183,7 +183,7 @@ Tampilan saat menambahkan task baru.
 </LinearLayout>
 ```
 
-### XML Graphic
+### 3. XML Graphic
 
 ##### activity_main.xml
 ![activity_main.xml](http://blog.ki2naiver.id/images/uts/activity_main.png "activity_main.xml")
@@ -443,7 +443,7 @@ public class AddTaskActivity extends AppCompatActivity {
 }
 ```
 
-### Screenshot (Emulator)
+### 4. Screenshot (Emulator)
 
 ##### Tampilan awal
 ![Tampilan Awal](http://blog.ki2naiver.id/images/uts/main.png "Tampilan Awal")
