@@ -14,6 +14,7 @@ Aplikasi To-Do List / Perencanaan Kegiatan
 
 Aplikasi ini berfungsi untuk menyimpan suatu kegiatan atau hal yang ingin dilakukan oleh pengguna.
 List kegiatan dapat ditandai berdasarkan prioritas:
+
 - 1 (Penting) = Merah
 - 2 (Sedang) = Orange
 - 3 (Biasa) = Kuning
@@ -21,7 +22,9 @@ List kegiatan dapat ditandai berdasarkan prioritas:
 ### 2. XML Text
 
 ##### activity_main.xml
+
 Tampilan utama saat aplikasi dijalankan sekaligus menampilkan list kegiatan yang sudah ditambahkan.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 
@@ -49,7 +52,9 @@ Tampilan utama saat aplikasi dijalankan sekaligus menampilkan list kegiatan yang
 ```
 
 ##### activity_add_task.xml
+
 Tampilan saat menambahkan task baru.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 
@@ -186,14 +191,17 @@ Tampilan saat menambahkan task baru.
 ### 3. XML Graphic
 
 ##### activity_main.xml
+
 ![activity_main.xml](http://blog.ki2naiver.id/images/uts/activity_main.png "activity_main.xml")
 
 ##### activity_add_task.xml
+
 ![activity_add_task.xml](http://blog.ki2naiver.id/images/uts/activity_add_task.png "activity_add_task.xml")
 
-### Source Code (Java)
+### 4. Source Code (Java)
 
 ##### MainActivity.java
+
 ```java
 /*
 * Copyright (C) 2016 The Android Open Source Project
@@ -362,6 +370,7 @@ public class MainActivity extends AppCompatActivity implements
 ```
 
 ##### AddTaskActivity.java
+
 ```java
 /*
 * Copyright (C) 2016 The Android Open Source Project
@@ -443,16 +452,20 @@ public class AddTaskActivity extends AppCompatActivity {
 }
 ```
 
-### 4. Screenshot (Emulator)
+### 5. Screenshot (Emulator)
 
 ##### Tampilan awal
+
 ![Tampilan Awal](http://blog.ki2naiver.id/images/uts/main.png "Tampilan Awal")
 
 ##### Tampilan saat menambahkan task baru
+
 ![Tambah Task](http://blog.ki2naiver.id/images/uts/add_task.png "Tambah Task")
 
 ##### Tampilan saat task sudah berhasil ditambahkan
+
 ![Task Ditambah](http://blog.ki2naiver.id/images/uts/added.png "Task Ditambah")
 
 Sekian, Terima Kasih!
+
 - Faridl
