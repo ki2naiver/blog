@@ -3932,7 +3932,32 @@ public class Menu extends AppCompatActivity {
       "num": "129",
       "name": "Magikarp"
     }]
-  }, {
+  }
+
+    ListView poke;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_menu);
+
+        poke = (ListView) findViewById(R.id.poke);
+
+
+        ArrayList<String> arrayList = new ArrayList<>();
+
+        arrayList.add("Name: Bulbasaur");
+        arrayList.add("Type: Poison, Grass");
+        arrayList.add("Ability: Chlorophyll, Overgrow");
+        arrayList.add("Name: Bulbasaur");
+
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
+
+        poke.setAdapter(arrayAdapter);
+
+    }
+
+    public class pokedex2
+    {
     "id": 131,
     "num": "131",
     "name": "Lapras",
@@ -4456,28 +4481,6 @@ public class Menu extends AppCompatActivity {
     ]
   }]
 }
-
-    ListView poke;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
-
-        poke = (ListView) findViewById(R.id.poke);
-
-
-        ArrayList<String> arrayList = new ArrayList<>();
-
-        arrayList.add("Name: Bulbasaur");
-        arrayList.add("Type: Poison, Grass");
-        arrayList.add("Ability: Chlorophyll, Overgrow");
-        arrayList.add("Name: Bulbasaur");
-
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arrayList);
-
-        poke.setAdapter(arrayAdapter);
-
-    }
 }
 
 ```
