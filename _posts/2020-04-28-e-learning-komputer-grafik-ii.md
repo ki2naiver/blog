@@ -95,7 +95,6 @@ Sekian, Terima Kasih!
 
 <dl>
     <dd>Faridl Nur Prastya W.</dd>
-    <dd>**NIM**: 161011400304</dd>
-    <dd>**Kelas**: 08TPLE003</dd>
-    <dd>_faridl@prastya.my.id_</dd>
+    <dd>NIM: 161011400304</dd>
+    <dd>Kelas: 08TPLE003</dd>
 </dl>
