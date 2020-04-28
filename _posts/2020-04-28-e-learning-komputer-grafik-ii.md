@@ -93,7 +93,7 @@ Namun, ingatlah bahwa memilih pengaturan antialiasing adalah resolusi paling ban
 
 Sekian, Terima Kasih!
 
-> Faridl Nur Prastya W.
-> **NIM**: 161011400304
-> **Kelas**: 08TPLE003
+> Faridl Nur Prastya W.\
+> **NIM**: 161011400304\
+> **Kelas**: 08TPLE003\
 > _faridl@prastya.my.id_
